@@ -547,3 +547,33 @@ transform:translateX(130vw);
 }
 
 }
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 80px 0;
+}
+
+.stat-card {
+    width: 220px;
+    padding: 35px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(160,80,255,0.4);
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px rgba(160,80,255,0.25);
+}
+
+.stat-card h2 {
+    font-size: 55px;
+    color: #b56cff;
+    margin: 0;
+}
+
+.stat-card p {
+    color: white;
+    font-size: 18px;
+}
