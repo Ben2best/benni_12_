@@ -91,18 +91,77 @@ backdrop-filter:blur(15px);
 
 
 
-.timeline div{
+.timeline{
 
-margin:30px;
-
-padding:20px;
-
-border-left:3px solid purple;
-
-background:#ffffff12;
+position:relative;
 
 }
 
+
+.experience-card{
+
+margin:40px auto;
+
+padding:25px;
+
+max-width:600px;
+
+background:
+
+rgba(255,255,255,0.08);
+
+border-radius:20px;
+
+border-left:
+
+4px solid #a855ff;
+
+text-align:left;
+
+transition:.4s;
+
+}
+
+
+.experience-card:hover{
+
+transform:
+
+translateX(15px);
+
+box-shadow:
+
+0 0 30px purple;
+
+}
+
+
+
+.experience-card h3{
+
+color:#c77dff;
+
+font-size:28px;
+
+}
+
+
+.experience-card h4{
+
+color:white;
+
+font-size:20px;
+
+}
+
+
+.experience-card p{
+
+opacity:.8;
+
+line-height:1.8;
+
+}
 
 
 .stats{
