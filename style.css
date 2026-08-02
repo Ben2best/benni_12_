@@ -178,15 +178,12 @@ flex-wrap:wrap;
 
 
 .stats div{
-
 padding:25px;
-
 background:#ffffff10;
-
 border-radius:20px;
-
-width:180px;
-
+width:160px;
+text-align:center;
+    
 }
 
 
